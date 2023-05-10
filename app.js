@@ -5,9 +5,11 @@ var querystring = require('querystring')
 var cookieParser = require('cookie-parser')
 require('dotenv').config()
 
-var client_id = process.env.CLIENT_ID // Your client id
-var client_secret = process.env.CLIENT_SECRET // Your secret
-var redirect_uri = process.env.REDIRECT_URI // Your redirect uri
+var client_id = 'c26efb672af6404c9de74180a6db385e' // Your client id
+var client_secret =
+  '5ae893d506d542d4a8ebd7f59290ee39' // Your secret
+var redirect_uri =
+  'https://sharemymixtape.herokuapp.com/callback' // Your redirect uri
 const PORT = process.env.PORT || 3000
 var app = express()
 
