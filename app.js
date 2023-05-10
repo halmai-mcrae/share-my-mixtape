@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000
 var app = express()
 
 //Serve all files inside the view directory, path relative to where you started node
-app.use(express.static('Mixtapify/views/'))
+app.use(express.static('share-my-mixtape/views/'))
 
 /**
  * Generates a random string containing numbers and letters
